@@ -47,6 +47,6 @@ Ensure you have the necessary Python libraries installed by running:
 
 ```bash
 pip install pandas numpy scikit-learn
-
+```
 after installing the neccessary libraries simply call the function and it will automatically ask for the file cleaning is required on.
    
