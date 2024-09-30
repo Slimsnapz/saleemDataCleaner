@@ -48,7 +48,11 @@ Ensure you have the necessary Python libraries installed by running:
 ```bash
 pip install pandas numpy scikit-learn
 ```
-after installing the neccessary libraries simply call the function and it will automatically ask for the file cleaning is required on.<br>
+Import the function
+```bash
+import saleemDataCleaner as sd
+```
+After installing the neccessary libraries simply call the function and it will automatically ask for the file cleaning is required on.<br>
 data1 returns the dataframe without any mismatch.<br>
 data2 returns the cleaned dataframe.<br>
 data3 returns selected features from the dataframe.<br>
