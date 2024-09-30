@@ -52,7 +52,7 @@ Import the function
 ```bash
 import saleemDataCleaner as sd
 ```
-After installing the neccessary libraries simply call the function and it will automatically ask for the file cleaning is required on.<br>
+After installing the neccessary libraries and importing the module simply call the function and it will automatically ask for the file cleaning is required on.<br>
 ```bash
 data1, data2,data3,data4 = sd.saleem_data_cleaner()
 ```
