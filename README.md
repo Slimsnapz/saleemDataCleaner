@@ -53,10 +53,11 @@ Import the function
 import saleemDataCleaner as sd
 ```
 After installing the neccessary libraries simply call the function and it will automatically ask for the file cleaning is required on.<br>
+```bash
+data1, data2,data3,data4 = sd.saleem_data_cleaner()
+```
 data1 returns the dataframe without any mismatch.<br>
 data2 returns the cleaned dataframe.<br>
 data3 returns selected features from the dataframe.<br>
 data4 returns the locals(functions).
-```bash
-data1, data2,data3,data4 = sd.saleem_data_cleaner()
-```
+
