@@ -61,3 +61,6 @@ data2 returns the cleaned dataframe.<br>
 data3 returns selected features from the dataframe.<br>
 data4 returns the locals(functions).
 
+## NOTE
+
+The project is still a work in progress, more updates and adjuctment will be made to the code overtime to make it work more efficiently
