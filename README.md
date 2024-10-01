@@ -64,32 +64,32 @@ data4 returns the locals(functions).
 ## KEY FUNCTIONS
 
 Here is a brief description of the main functions included in the Saleem Data Cleaner:<br>
--file_loader(): Load a dataset from a CSV or Excel file.<br>
--check_data_shape(data): Display the number of samples (rows) and features (columns) in the dataset.<br>
--cat_num_splitter(data): Split the dataset into categorical and numerical features.<br>
--check_data_info(data): Display general information about the dataset, including data types and missing values.<br>
--feature_inspec(data): Inspect the first 8 values of each feature and identify potential data type mismatches.<br>
--data_type_mismatch(data): Correct data type mismatches, such as numerical values stored as strings.<br>
--unique_labels(data): Identify unique labels in categorical features.<br>
--missing_value(data): Check for missing values in the dataset.<br>
--check_duplicates(data): Check for duplicate rows in the dataset.<br>
--duplicate_dropper(data): Remove duplicate rows from the dataset.<br>
--missing_value_treater(data): Treat missing values by either filling or removing columns based on a user-defined threshold.<br>
--indicate_target(data): Identify and separate the target variable (label) from the dataset.<br>
--feature_acc_label(data): Prompt the user to label and categorize features as nominal or ordinal.<br>
--data_transformation(norminal, ordinal, cat_data): Transform nominal features into one-hot encoded format and ordinal features using label encoding.<br>
--in_quantile_rng(data): Check for outliers in numerical features using the interquartile range.<br>
--skew_check(data): Evaluate skewness in numerical features.<br>
--is_need_to_normalize(data): Determine if normalization is needed for numerical features.<br>
--normalizer(data): Normalize numerical features using L2 normalization.<br>
--is_need_to_rescale(data): Check if rescaling is required based on feature range differences.<br>
--scaler(data): Scale numerical features using MinMaxScaler.<br>
--is_need_to_standardize(data): Check if standardization is necessary based on feature variance.<br>
--standardize(data): Standardize numerical features using StandardScaler.<br>
--fea_sec_meth(): Prompt the user to select a feature selection method (UFS, RFE, PCA) and apply it to the dataset.<br>
--univariate_feature_selection(data, k=10): Select the top k features using univariate feature selection.<br>
--recursive_feature_elimination(data, n_features_to_select): Perform recursive feature elimination (RFE) to select a specific number of features.<br>
--pca_feature_selection(data, n_components): Apply Principal Component Analysis (PCA) to reduce feature dimensionality.<br>
+- file_loader(): Load a dataset from a CSV or Excel file.<br>
+- check_data_shape(data): Display the number of samples (rows) and features (columns) in the dataset.<br>
+- cat_num_splitter(data): Split the dataset into categorical and numerical features.<br>
+- check_data_info(data): Display general information about the dataset, including data types and missing values.<br>
+- feature_inspec(data): Inspect the first 8 values of each feature and identify potential data type mismatches.<br>
+- data_type_mismatch(data): Correct data type mismatches, such as numerical values stored as strings.<br>
+- unique_labels(data): Identify unique labels in categorical features.<br>
+- missing_value(data): Check for missing values in the dataset.<br>
+- check_duplicates(data): Check for duplicate rows in the dataset.<br>
+- duplicate_dropper(data): Remove duplicate rows from the dataset.<br>
+- missing_value_treater(data): Treat missing values by either filling or removing columns based on a user-defined threshold.<br>
+- indicate_target(data): Identify and separate the target variable (label) from the dataset.<br>
+- feature_acc_label(data): Prompt the user to label and categorize features as nominal or ordinal.<br>
+- data_transformation(norminal, ordinal, cat_data): Transform nominal features into one-hot encoded format and ordinal features using label encoding.<br>
+- in_quantile_rng(data): Check for outliers in numerical features using the interquartile range.<br>
+- skew_check(data): Evaluate skewness in numerical features.<br>
+- is_need_to_normalize(data): Determine if normalization is needed for numerical features.<br>
+- normalizer(data): Normalize numerical features using L2 normalization.<br>
+- is_need_to_rescale(data): Check if rescaling is required based on feature range differences.<br>
+- scaler(data): Scale numerical features using MinMaxScaler.<br>
+- is_need_to_standardize(data): Check if standardization is necessary based on feature variance.<br>
+- standardize(data): Standardize numerical features using StandardScaler.<br>
+- fea_sec_meth(): Prompt the user to select a feature selection method (UFS, RFE, PCA) and apply it to the dataset.<br>
+- univariate_feature_selection(data, k=10): Select the top k features using univariate feature selection.<br>
+- recursive_feature_elimination(data, n_features_to_select): Perform recursive feature elimination (RFE) to select a specific number of features.<br>
+- pca_feature_selection(data, n_components): Apply Principal Component Analysis (PCA) to reduce feature dimensionality.<br>
 
 ## NOTE
 
