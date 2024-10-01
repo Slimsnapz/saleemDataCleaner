@@ -63,4 +63,4 @@ data4 returns the locals(functions).
 
 ## NOTE
 
-The project is still a work in progress, more updates and adjuctment will be made to the code overtime to make it work more efficiently
+The project is still a work in progress, more updates and adjuctment will be made to the code overtime to make it work more efficiently.
